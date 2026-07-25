@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: #000;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;  
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#heading h1{
+    font-family: sans-serif;
+    font-size: 10vw;
+    font-weight: 700;
+    margin-left: 30px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    line-height: 1;
+}
+
+#heading #second1{
+    margin-left: 190px;
+}
+
+#blocktext{
+    width: fit-content;
+}
+
+#blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#secHeading {
+    margin-top: 100px;
+    padding: 50px;
+}
+
+#secHeading h5{
+    margin-top: 0.5vw;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1vw;
+
+}
+
+#herofooter{
+    padding: 0 1vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#herofooter a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#iconset{
+    display: flex;
+    gap: 5%;
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #888;
+}
